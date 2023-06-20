@@ -11,7 +11,7 @@ from telegram.utils.helpers import mention_html
 
 from MikuXProBot.modules.helper_funcs.anonymous import AdminPerms, user_admin
 
-from MikuXProBot.import dispatcher
+from MikuXProBot import dispatcher
 from MikuXProBot.modules.helper_funcs.decorators import mikucallback
 
 from MikuXProBot.modules.log_channel import loggable
